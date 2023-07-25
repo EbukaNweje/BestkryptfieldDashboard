@@ -70,7 +70,7 @@ const App = () => {
         <Route path="/adminLogin" element={<AdminLogin />} />
         <Route path="/updateUser" element={<UpdateUser />} /> */}
         <Route path="/verify/:verifyid" element={<VerificationPage />} />
-        {/* <Route element={<Private />}> */}
+        <Route element={<Private />}>
           <Route path="/dashboard/:userid" element={<Dashboard2 />} />
           <Route path="/walletpage" element={<WalletPage />} />
           <Route path="/walletid" element={<WalletId />} />
@@ -87,7 +87,7 @@ const App = () => {
           <Route path="/dogecoin" element={<Dogecoin />} />
           <Route path="/updateuser" element={<Updateuser />} />
           <Route path="/sendwithdraw" element={<SendWithdrawReq />} />
-        {/* </Route> */}
+        </Route>
       </Routes>
       {/* <FooterNew /> */}
       {/* <Footer/>  */}
