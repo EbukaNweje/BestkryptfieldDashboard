@@ -6,7 +6,7 @@ import {FaBitcoin, FaEthereum, FaDollarSign} from 'react-icons/fa';
 import bgbg from "./bgbg.jpg";
 import doge  from './dogecoin.jpg';
 import bnb from './bnb.png'
-import shib from './shibacoin.png'
+// import shib from './shibacoin.png'
 import { Link } from "react-router-dom";
 // import Swal from "sweetalert2";
 
@@ -73,7 +73,7 @@ const History2 = () =>{
                         <Button to='/bnb'>Deposit</Button>
                     </Div3>
                 </Card>
-                <Card>
+                {/* <Card>
                     <Img src={shib} style={{borderRadius: "50%",padding: "10px", width: 250, height: 250}}/>
                     <Div>
                         <Type>SHIBA COIN</Type>
@@ -83,7 +83,7 @@ const History2 = () =>{
                     <Div3>
                         <Button to='/bnb'>Deposit</Button>
                     </Div3>
-                </Card>
+                </Card> */}
             </Wrapper>
         </Container>
     )
