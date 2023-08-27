@@ -63,7 +63,7 @@ const Header = () =>{
                     
                     {UserData? <Nav onClick={() =>{
                             deleteUser();
-                        }}  to='hhttps://bestkryptfield.netlify.app/' style={{color: "black", fontWeight: "bold", fontSize: "20px", display: "flex", alignItems: "center"}}> <BsFillPersonFill/> Sign Out</Nav>  : 
+                        }}  to='https://bestkryptfield.org/' style={{color: "black", fontWeight: "bold", fontSize: "20px", display: "flex", alignItems: "center"}}> <BsFillPersonFill/> Sign Out</Nav>  : 
                         <>
                         <NavHold>
                         <Nav to='/'>Home</Nav>
