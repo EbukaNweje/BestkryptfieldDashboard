@@ -65,8 +65,8 @@ const OTP = () => {
   // console.log(otp1);
 
   const navigate = useNavigate();
-  const url = `https://bestkryptfield.onrender.com/api/verifyotp/${verifyid}`
-  const url2 = `https://bestkryptfield.onrender.com/api/resetotp/${verifyid}`
+  const url = `https://bestkryptfield-back-end.vercel.app/api/verifyotp/${verifyid}`
+  const url2 = `https://bestkryptfield-back-end.vercel.app/api/resetotp/${verifyid}`
 
     // console.log(verifyid);
 
