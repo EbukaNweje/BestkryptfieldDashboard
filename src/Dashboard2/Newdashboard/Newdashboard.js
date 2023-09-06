@@ -23,7 +23,7 @@ const NewDashboard = () => {
 
 const [data, setData] = useState()
   const {userid} = useParams()
-  const url = `https://bestkryptfieldback.onrender.com/api/userdata/${userid}`
+  const url = `https://amused-cod-buckle.cyclic.app/api/userdata/${userid}`
 
   useEffect(() =>{
     axios.get(url).then(res => setData(res.data.data))

@@ -48,29 +48,8 @@ const App = () => {
       <Hero2 />
       <Header />
       <Routes>
-        {/* <Route path='/' element={<Landing />} /> */}
-        {/* <Route path='/login' element={<Login />} /> */}
-        {/* <Route path='/forgotpassword' element={<ForgotPassword />} /> */}
-        {/* <Route path='/restLink/:userid/:tokenid' element={<RestPassword />} /> */}
-        {/* <Route path='/register' element={<SignUp />} /> */}
-        {/* <Route path="/affiliate" element={<Affiliate />} />
-        <Route path="/stock" element={<Stock />} />
-        <Route path="/forex" element={<Forex />} />
-        <Route path="/farm" element={<Farm />} />
-        <Route path="/multiassets" element={<Multiassets />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/arbitage" element={<Arbitage />} />
-        <Route path="/newsdetailpage" element={<NewsDetailPage />} />
-        <Route path="/investment" element={<Investment />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/faqdet" element={<Faq />} />
-        <Route path="/sendrequest" element={<Sendreq />} />
-        <Route path="/Howreg" element={<Howreg />} />
-        <Route path="/newsdetail" element={<NewsDetailPage />} />
-        <Route path="/adminLogin" element={<AdminLogin />} />
-        <Route path="/updateUser" element={<UpdateUser />} /> */}
         <Route path="/verify/:verifyid" element={<VerificationPage />} />
-        <Route element={<Private />}>
+        {/* <Route element={<Private />}> */}
           <Route path="/dashboard/:userid" element={<Dashboard2 />} />
           <Route path="/walletpage" element={<WalletPage />} />
           <Route path="/walletid" element={<WalletId />} />
@@ -87,10 +66,7 @@ const App = () => {
           <Route path="/dogecoin" element={<Dogecoin />} />
           <Route path="/updateuser" element={<Updateuser />} />
           <Route path="/sendwithdraw" element={<SendWithdrawReq />} />
-        </Route>
       </Routes>
-      {/* <FooterNew /> */}
-      {/* <Footer/>  */}
     </BrowserRouter>
   )
 };
